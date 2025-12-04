@@ -1,0 +1,23 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "2de8122004dbc155c42eda855e3ca40a"
+application_url = "https://shopify.dev/apps/default-app-home"
+embedded = true
+name = "ds-thankyou-link"
+handle = "ds-thankyou-link"
+
+[webhooks]
+api_version = "2025-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "aldo-testify-shop.myshopify.com"
